@@ -3,7 +3,8 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 
 const app = express();
-mongoose.connect('mongodb://localhost:27017/mevn-database')
+//mongoose.connect('mongodb://localhost:27017/mevn-database')
+mongoose.connect('mongodb+srv://calcetin:Calcetin1890@cluster0.q94unls.mongodb.net/test')
     .then(_db => console.log('DB is connected'))//! para saber si se conecto a la base de datos
     .catch(err => console.error('Error connecting to MongoDB', err));//! si dio error
 
