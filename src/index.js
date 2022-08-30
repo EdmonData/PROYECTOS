@@ -11,7 +11,7 @@ mongoose.connect('mongodb+srv://calcetin:edc1234@pruebas.g0kzx.mongodb.net/test'
 
 
 //? Setting
-app.set('port', process.env.PORT || 3000);//! para que pueda usar el puerto que se le asigne en el servidor
+app.set('port', process.env.PORT || 80);//! para que pueda usar el puerto que se le asigne en el servidor
 
 
 //? Middleware
